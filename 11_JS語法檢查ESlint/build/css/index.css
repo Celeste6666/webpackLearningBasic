@@ -1,0 +1,9 @@
+:root{
+  --primary: Teal;
+}
+
+h1{
+  color: Teal;
+  color: var(--primary);
+  background-color: #639;
+}

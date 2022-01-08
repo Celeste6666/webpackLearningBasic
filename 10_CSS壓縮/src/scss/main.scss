@@ -1,0 +1,15 @@
+@import './reset';
+@import './varible';
+
+:root{
+  --secondary: #696966;
+}
+
+body{
+  color: $primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backface-visibility: hidden
+}
+

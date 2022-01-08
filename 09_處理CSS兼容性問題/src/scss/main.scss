@@ -1,0 +1,17 @@
+$primary: #3eefaa;
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backface-visibility: hidden
+}
+
+body{
+  @include flex;
+}
+
+.box{
+  width: 50vw;
+  height: 50vh;
+  background-color: $primary;
+}

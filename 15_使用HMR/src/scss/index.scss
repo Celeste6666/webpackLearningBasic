@@ -1,0 +1,10 @@
+$secondary: #8a8989;
+
+:root{
+  --primary: rgb(30, 176, 196);
+}
+
+h1{
+  color: var(--primary);
+  background-color: $secondary;
+}

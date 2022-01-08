@@ -1,0 +1,6 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(225, 65, 132);
+  background-image: url(../assets/unsplash2.jpg);
+}

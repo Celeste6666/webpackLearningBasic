@@ -1,0 +1,8 @@
+@font-face {
+	font-family: missyuan;
+	src: url(./font.ttf);
+}
+
+body{
+  font-family: missyuan;
+}

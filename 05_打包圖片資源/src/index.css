@@ -1,0 +1,13 @@
+.box{
+  width: 70vw;
+  height: 70vh;
+}
+
+.box1{
+  background-image: url(./unsplash.jpg) ;
+  background-size: cover;
+}
+.box2{
+  background-size: cover;
+  background-image: url(./unsplash2.jpg);
+}
