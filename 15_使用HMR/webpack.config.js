@@ -96,10 +96,20 @@ module.exports = {
     ],
   },
   devServer: {
+    // 默認開啟監聽(watch)
     static: './build',
+    // static: {
+    //   directory: path.join(__dirname, 'build'),
+    //   watch: {
+    // // 忽略某些文件(不需要監聽)
+    //     ignored: /node_modules/,
+    //   },
+    // },
     open: true,
     compress: true,
     client: {
+      // 啟動瀏覽器日誌
+      logging: 'none',
       overlay: {
         warnings: false,
         errors: true,
@@ -111,5 +121,8 @@ module.exports = {
     // html 也沒有 HMR 功能也沒有熱更新(如果想要有熱更新功能可以在 entry 中加入 HTML 文件)
     // html 只有一個文件，所以一旦變化就一定要重新加載，無需做 HMR
     hot: true,
+    // 代理服務器
+    // 為了解決瀏覽器與伺服器之間的跨域問題(CORS)
+    proxy: {},
   },
 };

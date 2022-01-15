@@ -6,7 +6,7 @@ const ESLintPlugin = require('eslint-webpack-plugin');
 // const devMode = process.env.NODE_ENV !== 'production';
 
 module.exports = {
-  mode: 'production',
+  mode: 'development',
   entry: './src/js/index.js',
   output: {
     path: `${__dirname}/build`,

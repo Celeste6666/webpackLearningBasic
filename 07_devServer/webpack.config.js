@@ -35,6 +35,8 @@ module.exports = {
     // 第一次運行時會自動打開瀏覽器
     // 之後更改 html 檔以外的檔案才會即時更新
     open: true,
+    // 域名
+    host: 'localhost',
     client: {
       // 編譯出現錯誤或警告時，警告或錯誤訊息是否會覆蓋全屏顯示
       overlay: {

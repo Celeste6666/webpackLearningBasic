@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Permanent+Marker&display=swap');
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: #7a7add;
+  overflow: hidden;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Permanent Marker', cursive;
+}
